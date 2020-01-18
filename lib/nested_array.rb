@@ -51,7 +51,7 @@ def sorted_matrix
      "Asparagus"].sort!]
 end
 
-def matrix_lookup(matrix = [[1,2,3,4,5,], [6,7,8,9,10]] row = 0, column = 3)
+def matrix_lookup(matrix = [[1,2,3,4,5,], [6,7,8,9,10]], row = 0, column = 3)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
   matrix[row][column]
